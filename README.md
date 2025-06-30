@@ -4,11 +4,11 @@
 Snake game is a classic game that was first popular in the old school mobile phone era. in this game, the player controls a snake that keeps moving within a certain area. The goal is to eat objects that appear on the layer, usually depicted as dots or food that will make the snake's body grow longer each time it is eaten. The main challenge in Snake lies in controlling the snake's direction of motion so that it doesn't bump into walls or its own body. The longer the snake, the more difficult it is to control its movements, as space becomes more limited and small mistakes can be fatal.
 
 ### Home View
-![alt text](https://github.com/mmarufqk/SnakeGame/blob/main/docs/MainMenu.png)
+![alt text](https://github.com/Nash-amy/Snake-Game/blob/main/docs/MainMenu.png)
 the following is the Home View display of the game that we have created, containing 3 options: singleplayer for those of you who want to play alone, multiplayer for those of you who want to play with friends, and about contains about the game and the introduction of the game developer. in the initial display there will be music sounds that will make you more comfortable.
 
 ### Singleplayer Menu
-![alt text](https://github.com/mmarufqk/SnakeGame/blob/main/docs/SingleplayerMenu.png)
+![alt text](https://github.com/Nash-amy/Snake-Game/blob/main/docs/SingleplayerMenu.png)
 
 In this singleplayer menu, you will be given features to change the game to make it more exciting, such as :
 * **Speed :** In choosing the speed, you will be given 3 options: slow, medium, and fast. the higher you choose the speed, the more exciting and challenging your game will be.
@@ -17,18 +17,18 @@ In this singleplayer menu, you will be given features to change the game to make
 * **Preview:** when you select the feature, it will be displayed in the preview to know the display that will be given when playing.
 
 ### Multieplayer Menu
-![alt text](https://github.com/mmarufqk/SnakeGame/blob/main/docs/MultiplayerMenu.png)
+![alt text](https://github.com/Nash-amy/Snake-Game/blob/main/docs/MultiplayerMenu.png)
 
 in the multiplayer menu, it will look like the singleplayer menu earlier, by adding the name and snake colour for player 2.
 
 ### About
-![alt text](https://github.com/mmarufqk/SnakeGame/blob/main/docs/About.png)
+![alt text](https://github.com/Nash-amy/Snake-Game/blob/main/docs/About.png)
 in this about, it contains a brief description of the snake game and shows the game creator who is very handsome (no homo).
 
 ## How To Play
 
 ### Singleplayer
-![alt text](https://github.com/mmarufqk/SnakeGame/blob/main/docs/Singleplayer.png)
+![alt text](https://github.com/Nash-amy/Snake-Game/blob/main/docs/Singleplayer.png)
 The objective of the game is to eat as many apples as possible without colliding with the walls or the snake's own body. As the snake eats more apples, it will grow in length and move faster.
 You can control the direction of the snake using the arrow keys on your keyboard:
 
@@ -41,7 +41,7 @@ there are 3 buttons: pause, back and restart.
 pause when you want to pause, back to return to the singleplayer menu, and restart if you want to repeat the game (the game point will reset)
 
 ### Multiplayer
-![alt text](https://github.com/mmarufqk/SnakeGame/blob/main/docs/Multiplayer.png)
+![alt text](https://github.com/Nash-amy/Snake-Game/blob/main/docs/Multiplayer.png)
 In multiplayer, it's the same as singleplayer except that each player must survive not to lose, if one player loses. then it will be game over immediately and the other player will continue playing to get higher points.
 You and your friend can control the direction of the snake using the arrow keys on your keyboard:
 
@@ -58,15 +58,15 @@ You and your friend can control the direction of the snake using the arrow keys 
 * **D:** Press the right arrow key to move the snake to the right.
 
 ## File Structure for Build
-* [dist/](https://github.com/mmarufqk/SnakeGame/tree/main/dist) : contains the build `.jar` file from NetBeans.
-* [requirements/](https://github.com/mmarufqk/SnakeGame/tree/main/requirements) : contains the Launch4j setup, Inno Setup Compiler, and necessary configuration files.
+* [dist/](https://github.com/Nash-amy/Snake-Game/tree/main/dist) : contains the build `.jar` file from NetBeans.
+* [requirements/](https://github.com/Nash-amy/Snake-Game/tree/main/requirements) : contains the Launch4j setup, Inno Setup Compiler, and necessary configuration files.
 * `release/` : contains the final installer (`.exe`) file, not included in this repo but included in the [release](https://github.com/mmarufqk/SnakeGame/releases/tag/v1.0.0).
 
 To download the final version of the jar file, executable or installer, please check the Releases page of this repository or you can click this [v1.0.0 Release](https://github.com/mmarufqk/SnakeGame/releases/tag/v1.0.0)
 
 
 ## Additionally
-* PPT : https://github.com/mmarufqk/SnakeGame/blob/main/docs/PPTSnakeGame.pdf
+* PPT : https://github.com/Nash-amy/Snake-Game/blob/main/docs/PPTSnakeGame.pdf
 * Assets : https://drive.google.com/drive/folders/1NX3Rp-jKI0lTsdfrr4I26uEY3zSwnwC5?usp=sharing
 
 ## Development Tools
@@ -76,7 +76,7 @@ To download the final version of the jar file, executable or installer, please c
 * Code Editor : Visual Studio Code 1.101.2.
 
 ## Build Tools
-This application was developed using [Development Tools](https://github.com/mmarufqk/SnakeGame?tab=readme-ov-file#development-tools) and compiled to `.jar` by NetBeans. To make it executable on Windows, We used:
+This application was developed using [Development Tools](https://github.com/Nash-amy/Snake-Game?tab=readme-ov-file#development-tools) and compiled to `.jar` by NetBeans. To make it executable on Windows, We used:
 * Launch4j (v3.50) to convert the `.jar` file to `.exe`.
 * Inno Setup Compiler (v6.4.3) to create a Windows installer that includes JDK 24 and run the Launch4j generated `.exe` file.
 
